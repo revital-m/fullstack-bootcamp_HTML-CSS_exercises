@@ -1,0 +1,15 @@
+/* the problem was that the outer had no position instead of position: relative */
+#outer {
+  width: 100px;
+  height: 100px;
+  background: darkcyan;
+  margin: 50px;
+  position: relative;
+}
+#inner {
+  width: 50px;
+  height: 50px;
+  background: lightgreen;
+  position: absolute;
+  top: 10px;
+}

@@ -1,0 +1,17 @@
+.first_option {
+  border: 1px solid red;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.second_option {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.third_option {
+  background: #333;
+  color: #fff;
+  box-shadow: 5px 5px 20px gray;
+  font-family: monospace;
+}
