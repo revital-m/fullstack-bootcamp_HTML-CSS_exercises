@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    height: 22vh;
+    width: 22vw;
+    background: red;
+    position: relative;
+  }
+  
+  .box:after {
+    content: " ";
+    height: 22vh;
+    width: 50%;
+    position: absolute;
+    background-color: purple;
+  }
+
+  .box:hover:after {
+    content: " ";
+    height: 22vh;
+    width: 50%;
+    position: absolute;
+    background-color: rgb(49, 49, 160);
+  }
+  
