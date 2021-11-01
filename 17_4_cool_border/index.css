@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  position: relative;
+  background: transparent;
+  border: transparent;
+  width: 81vw;
+  height: 75vh;
+}
+
+h1 {
+  color: white;
+  padding: 30rem 19rem;
+  font-size: 7rem;
+  text-align: center;
+}
+
+.left-up-corner-border,
+.left-down-corner-border,
+.right-up-corner-border,
+.right-down-corner-border {
+  position: absolute;
+  background: transparent;
+  width: 25%;
+  height: 25%;
+}
+
+.left-up-corner-border {
+  top: 0;
+  left: 0;
+}
+
+.left-down-corner-border {
+  bottom: 0;
+  left: 0;
+}
+
+.right-up-corner-border {
+  top: 0;
+  right: 0;
+}
+
+.right-down-corner-border {
+  bottom: 0;
+  right: 0;
+}
+
+.left-up-corner-border::after {
+  content: " ";
+  position: absolute;
+  background-color: red;
+  width: 3%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.left-up-corner-border::before {
+  content: "";
+  position: absolute;
+  background-color: red;
+  width: 100%;
+  height: 6%;
+  top: 0;
+  left: 0;
+}
+
+.left-down-corner-border::after {
+  content: " ";
+  position: absolute;
+  background-color: red;
+  width: 3%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.left-down-corner-border::before {
+  content: "";
+  position: absolute;
+  background-color: red;
+  width: 100%;
+  height: 6%;
+  bottom: 0;
+  left: 0;
+}
+
+.right-up-corner-border::after {
+  content: " ";
+  position: absolute;
+  background-color: red;
+  width: 100%;
+  height: 6%;
+  top: 0;
+  left: 0;
+}
+
+.right-up-corner-border::before {
+  content: "";
+  position: absolute;
+  background-color: red;
+  width: 3%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
+.right-down-corner-border::after {
+  content: " ";
+  position: absolute;
+  background-color: red;
+  width: 100%;
+  height: 6%;
+  bottom: 0;
+  right: 0;
+}
+
+.right-down-corner-border::before {
+  content: "";
+  position: absolute;
+  background-color: red;
+  width: 3%;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+}
