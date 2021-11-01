@@ -4,10 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
-    <title>13.2-refactor_landing_page</title>
+    <title>7.2-refactor_with_float</title>
+    <script
+    src="https://kit.fontawesome.com/5c4607dc13.js"
+    crossorigin="anonymous"
+  ></script>
 </head>
 <body>
-    
+    <div class="container">
+        <nav>
+            <ul class="navber">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+        </nav>
+        <header id="main_header">
+            <h1>
+                Hello <span class="far fa-smile-beam"></span> , my name is Revital Maor
+                </h1>
+            </header>
+        <div id="secondary_header">
+            <h3>I am a programmer.</h3>
+        </div>
+        <div id="profile_img">
+            <img
+            src="./profile_img.jpg"
+            alt="My Image"
+            width="200"
+            />
+        </div>
+        <div id="about">
+            Computer Science student at the Open University.
+            <br />
+            I am a fast learner and self-taught person, who always aspire to maximize my abilities.
+            <br />
+            Looking for my first job in the software industry, <br> where I would be able
+            to contribute my skills and specialize in the field.
+        </div>
+        <br />
+        <div id="links">
+        You can see my projects in my
+        <a href="https://github.com/revital-m" target="_blank">github account</a>
+        <p>
+            <h4>Follow me</h4>
+            <a href="http://www.linkedin.com/in/revital-maor" target="_blank">
+            <span class="fab fa-linkedin"></span
+            ></a>
+            <a href="https://www.facebook.com/revital.maor.3/" target="_blank">
+            <span class="fab fa-facebook-square"></span
+            ></a>
+        </p>
+        </div>
+        <div class="card">
+            <img src="coding backround.jpeg" alt="My Image" width="350" />
+            <h2>Project</h2>
+            <p>Cool project I did in the University</p>
+            <button>See more</button>
+        </div>
+    </div>
 </body>
 </html>
