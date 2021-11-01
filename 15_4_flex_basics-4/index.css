@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(202, 204, 179);
+}
+
+.continer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  width: 20vw;
+  height: 20vh;
+}
+
+.box-1 {
+  background: green;
+}
+
+.box-2 {
+  background: blue;
+}
+
+.box-3 {
+  background: red;
+}
