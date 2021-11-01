@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 10vw;
+}
+
+h2 {
+    text-align: center;
+    font-size: 8vw;
+}
+h3 {
+    text-align: center;
+    font-size: 6vw;
+}
+h4 {
+    text-align: center;
+    font-size: 4vw;
+}
