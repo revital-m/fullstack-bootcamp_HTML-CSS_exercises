@@ -101,7 +101,7 @@ body {
   width: 100%;
   top: 0;
   left: 0;
-  transition: all 1.5s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .scale-opacity:hover:before {
