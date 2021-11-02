@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Zen Maru Gothic", sans-serif;
+  line-height: 1.4em;
+}
+
+.container {
+  max-width: 960px;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+.navber {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #6e20b8;
+  border-radius: 35px;
+  overflow: auto;
+}
+
+.navber li {
+  float: left;
+  width: 25%;
+}
+
+.navber li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 20px;
+}
+
+.navber li a:hover {
+  background-color: #54188d;
+  color: #f4f4f4;
+}
+
+#main_header {
+  font-family: "Irish Grover", cursive;
+}
+
+#secondary_header {
+  font-family: "Irish Grover", cursive;
+}
+#about {
+  border: 1px solid rgb(247, 200, 228);
+  background: #e3cefa80;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+#links {
+  color: rgb(49, 49, 156);
+  font-size: 20px;
+  background-color: rgb(179, 246, 255);
+  border: 3px solid rgb(0, 153, 255);
+  border-radius: 10px;
+  float: left;
+  width: 38%;
+  padding: 20px;
+  margin: 15px 50px;
+  box-shadow: 5px 5px 20px gray;
+}
+
+.card {
+  background: black;
+  height: 410px;
+  width: 40%;
+  box-shadow: 5px 5px 20px gray;
+  float: left;
+  border: black 1px solid;
+  border-radius: 10px;
+  margin: 15px 50px;
+  color: rgb(192, 192, 192);
+}
+
+.card button {
+  background: rgb(192, 192, 192);
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
