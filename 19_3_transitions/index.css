@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+}
+
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  border: black 5px solid;
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.rotate::after {
+  position: absolute;
+  content: "";
+  background: yellow;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transform: rotate(-90deg);
+  transform-origin: left top;
+  transition: all 1s ease-in-out;
+}
+
+.rotate:hover::after {
+  transform: rotate(0);
+}
+
+.translate::before {
+  position: absolute;
+  content: "Translate";
+  background: #333;
+  color: #fff;
+  height: 52%;
+  width: 78%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding: 30px;
+  transform: translateX(-100%);
+  transition: all 1s ease-in-out;
+}
+
+.translate:hover::before {
+  transform: translateX(0);
+}
+
+.translate-y::before {
+  position: absolute;
+  content: "YEAH!";
+  background: red;
+  height: 52%;
+  width: 80%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding: 30px;
+  transform: translateY(-100%);
+  transition: all 1s ease-in-out;
+}
+
+.translate-y:hover::before {
+  transform: translateX(0);
+}
+
+.scale-opacity::before {
+  content: "Scale & Opacity";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: scale(2);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: all 1.5s ease-in-out;
+}
+
+.scale-opacity:hover:before {
+  transform: scale(1);
+  opacity: 1;
+  background: black;
+  border: black 10px solid;
+  color: white;
+}
