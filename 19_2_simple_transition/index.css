@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 22vh;
+  width: 22vw;
+  background: rgb(250, 118, 140);
+  position: relative;
+  cursor: pointer;
+}
+
+.box::after {
+  content: " ";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgb(192, 61, 218);
+  transform: translateX(-100%);
+  transition: all 2s ease-in-out;
+}
+
+.box:hover::after {
+  transform: translateX(0);
+  background-color: rgb(49, 160, 160);
+}
