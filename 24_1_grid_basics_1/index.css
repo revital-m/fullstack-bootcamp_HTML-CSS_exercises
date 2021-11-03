@@ -21,12 +21,12 @@
 }
 
 .box-1 {
-  background: rgb(0, 255, 42);
+  background: rgb(9, 255, 0);
   grid-area: box-1;
 }
 
 .box-2 {
-  background: rgb(2, 255, 158);
+  background: rgb(108, 252, 197);
   grid-area: box-2;
 }
 
