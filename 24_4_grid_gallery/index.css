@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(7, 5vw);
+  grid-gap: 0.5rem;
+  margin: 3rem;
+}
+
+.box-1 {
+  background: url("./img/gal-1.jpeg") no-repeat center center/cover;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.box-2 {
+  background: url("./img/gal-2.jpeg") no-repeat center center/cover;
+  grid-column: 3 / span 3;
+  grid-row: 1 / span 3;
+}
+
+.box-3 {
+  background: url("./img/gal-3.jpeg") no-repeat center center/cover;
+  grid-column: 6 / span 1;
+  grid-row: 1 / span 2;
+}
+
+.box-4 {
+  background: url("./img/gal-4.jpeg") no-repeat center center/cover;
+  grid-column: 7 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.box-5 {
+  background: url("./img/gal-5.jpeg") no-repeat center center/cover;
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 3;
+}
+
+.box-6 {
+  background: url("./img/gal-6.jpeg") no-repeat center center/cover;
+  grid-column: 3 / span 2;
+  grid-row: 4 / span 2;
+}
+
+.box-7 {
+  background: url("./img/gal-7.jpeg") no-repeat center center/cover;
+  grid-column: 5 / span 1;
+  grid-row: 4 / span 1;
+}
+
+.box-8 {
+  background: url("./img/gal-8.jpeg") no-repeat center center/cover;
+  grid-column: 6 / span 2;
+  grid-row: 3 / span 2;
+}
+
+.box-9 {
+  background: url("./img/gal-9.jpeg") no-repeat center center/cover;
+  grid-column: 8 / span 1;
+  grid-row: 3 / span 3;
+}
+
+.box-10 {
+  background: url("./img/gal-10.jpeg") no-repeat center center/cover;
+  grid-column: 1 / span 1;
+  grid-row: 6 / span 2;
+}
+
+.box-11 {
+  background: url("./img/gal-11.jpeg") no-repeat center center/cover;
+  grid-column: 2 / span 2;
+  grid-row: 6 / span 2;
+}
+
+.box-12 {
+  background: url("./img/gal-12.jpeg") no-repeat center center/cover;
+  grid-column: 4 / span 1;
+  grid-row: 6 / span 2;
+}
+
+.box-13 {
+  background: url("./img/gal-13.jpeg") no-repeat center center/cover;
+  grid-column: 5 / span 3;
+  grid-row: 5 / span 3;
+}
+
+.box-14 {
+  background: url("./img/gal-14.jpeg") no-repeat center center/cover;
+  grid-column: 8 / span 1;
+  grid-row: 6 / span 2;
+}
+
+@media (max-width: 500px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(14, 5vw);
+  }
+
+  .box-3 {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 3;
+  }
+
+  .box-4 {
+    grid-column: 2 / span 2;
+    grid-row: 4 / span 2;
+  }
+
+  .box-5 {
+    grid-column: 3 / span 2;
+    grid-row: 9 / span 3;
+  }
+
+  .box-6 {
+    grid-column: 1 / span 1;
+    grid-row: 9 / span 2;
+  }
+
+  .box-7 {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+  }
+
+  .box-8 {
+    grid-column: 2 / span 2;
+    grid-row: 12 / span 3;
+  }
+
+  .box-9 {
+    grid-column: 4 / span 1;
+    grid-row: 4 / span 3;
+  }
+
+  .box-10 {
+    grid-column: 2 / span 1;
+    grid-row: 9 / span 3;
+  }
+
+  .box-11 {
+    grid-column: 1 / span 1;
+    grid-row: 11 / span 4;
+  }
+
+  .box-12 {
+    grid-column: 4 / span 1;
+    grid-row: 7 / span 2;
+  }
+
+  .box-13 {
+    grid-column: 1 / span 3;
+    grid-row: 6 / span 3;
+  }
+
+  .box-14 {
+    grid-column: 4 / span 1;
+    grid-row: 12 / span 3;
+  }
+}
